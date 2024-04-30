@@ -25,6 +25,8 @@ cpn = campaign_run2_2018_nano_v9 = Campaign(
     aux={"year": 2018, "tier": "NanoAOD", "version": "9"},
 )
 
+# trailing imports to load datasets
+import cmsdb.campaigns.run2_2018_nano_v9.data #noqa
 
 #
 # datasets
